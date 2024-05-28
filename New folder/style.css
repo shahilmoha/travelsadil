@@ -1,0 +1,339 @@
+body{
+   
+
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+}
+
+.travelimage{
+    object-fit: contain;
+    height: 80%;
+    width: 100%;
+  
+    
+}
+
+.think_trip{
+    padding-top: 40px;
+    letter-spacing: .9px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    
+
+}
+
+.travel_think{
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.link_style{
+    position: relative;
+    text-decoration: none;
+    color: rgb(115, 109, 109);
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    padding: 0 10px;
+    
+    }
+    .link_style:after{
+    content: "";
+    position: absolute;
+    background-color: #6f6ffd;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+    text-transform: uppercase;
+    
+    }
+    .link_style:hover{
+    color: #17161c;
+    }
+    .link_style:hover::after{
+    width: 100%;
+    }
+    .text_color{
+        color: rgb(36, 35, 35);
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif; /* Using Google Font 'Roboto' */
+
+
+    }
+
+    .text_color_card{
+        color: rgb(170, 165, 165);
+        text-align: justify;
+    }
+    .text_color_card:hover{
+        color: rgb(0, 0, 0);
+    }
+    .travelpackage{
+        height: 100%;
+        width: 100%;
+        background-color: rgb(225, 225, 226);
+    }
+    .text_center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.top_destination{
+    padding-top: 15px;
+    letter-spacing: 3.3px;
+    padding-left: 15px;
+}
+.top_destination_desc{
+    font-size: 18px;
+    letter-spacing: .3px;
+}
+
+.our_services{
+    font-size: 24px;
+    letter-spacing: 5.7px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(19, 13, 7);
+     /* Using Google Font 'Roboto' */
+
+}
+.card_border{
+    border:none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button_style_for_know_us{
+    width: 151px;
+    margin-top: 8px;
+    
+    background-color: rgb(243, 199, 145);
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 41px;
+    box-sizing: border-box;
+    color: #2d2d2e;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.25rem;
+    padding: 0.75rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    user-select: none;
+    touch-action: manipulation;
+    }
+    
+    
+    .button_style_for_know_us:hover {
+    background-color: rgb(249,250,251);
+    
+    
+    }
+    .button_style_for_know_us:focus{
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    }
+    .button_style_for_know_us:focus-visible{
+    box-shadow: none;
+    }
+.background_for_our_service{
+    background-color: rgb(240, 232, 221);
+}
+.background_color_begin_journey{
+    background-color: rgb(247, 175, 88);
+    height: 150px;
+    width: 100%;
+}
+.change_text{
+    padding-top: 20px;
+    letter-spacing: 2.6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+
+}
+.button_to_end{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-right: 50px;
+}
+
+.aling_from_left{
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+.fotter_alignment{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+.footer_about_us{
+    padding-left: 32px;
+    letter-spacing: 1.2px;
+    font-weight: 300;
+    text-align: justify;
+}
+.footer_links{
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 300;
+    color: black;
+}
+.fa {  
+    padding-top: 10px;  
+    text-align: center;  
+    margin: 3px 2px;  
+    font-size: 30px;  
+    width: 30px;  
+    
+    }  
+    
+    .fa-button{
+    color: rgb(97, 87, 76);
+    }
+    .fa-instagram {  
+    color: rgb(156, 146, 133); 
+    
+    }
+    .fa-youtube{
+        color: rgb(156, 146, 133); 
+    
+    }
+    .fa-whatsapp{
+        color: rgb(156, 146, 133); 
+    
+    }
+    .fa-linkedin{
+        color: rgb(156, 146, 133); 
+        
+        }
+        a{
+            text-decoration: none;
+        }
+    .fa-home{
+        color:rgb(156, 146, 133); 
+        font-size: 1em;
+    }
+    /* .footer_icons{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    } */
+
+    .address{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .address-email{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .fa-phone{
+        color:rgb(156, 146, 133); 
+        font-size: 1em;
+    }
+    .fa-envelope{
+        color:rgb(156, 146, 133); 
+        font-size: 1em;
+    }
+.tent_img{
+    padding-right: 30px;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index:9999 ;
+  }
+
+.enquiry {
+    position: fixed;
+    bottom: 50%;
+    right: -25px;
+    transform: rotate(-90deg);
+    background-color: #52565e;
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px 8px 0px 0px;
+    z-index: 3;
+}
+.enquiry h6 {
+    color: #fff;
+}
+.pakage_sub_head{
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+   
+}
+.pakage_sub_head:hover{
+    color: green;
+}
+.package_sub{
+    font-weight: 700;
+}
+
+.font_for_text{
+    font-family: 'Roboto', sans-serif; /* Using Google Font 'Roboto' */
+    font-weight: 700; /* Optional: Set font weight */
+    font-size: 36px;  /* Optional: Set font size */
+    color: #333;  
+}
+.font_for_heading{
+    font-family: 'Roboto', sans-serif; /* Using Google Font 'Roboto' */
+    font-weight: 600; /* Optional: Set font weight */
+    font-size: 42px;  /* Optional: Set font size */
+    color: #ffffff; 
+}
+.our_services_tours_travells{
+    font-family: 'Roboto', sans-serif; /* Using Google Font 'Roboto' */
+    font-weight: 500; /* Optional: Set font weight */
+    font-size: 42px;
+    letter-spacing: 1.2px;
+}
+
+.travelpackage{
+    padding-top: 200px;
+}
+.beyond_borders{
+    font-size: 20px;
+}
+.image-container {
+    position: relative;
+    width: 150px; /* Set width for the circular container */
+    height: 150px; /* Set height to be the same as width */
+    border-radius: 50%; /* Make the container a circle */
+    overflow: hidden; /* Hide any overflow from the image */
+    margin: 0 auto; /* Center the container horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    width:70%; /* Ensure the image covers the container */
+    height: auto; /* Ensure the image covers the container */
+    object-fit: cover; /* Scale the image nicely to fit the container */
+    border-radius: 50%; /* Ensure the image itself is also rounded */
+}
+.footer_headings{
+    font-size: 22px; 
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
